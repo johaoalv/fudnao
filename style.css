@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif; 
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+ 
+#logo {
+    margin: 10px;
+    border-radius: 10px;
+  
+}  
+.title {
+    text-align: center;
+    font-family: 'Roboto', sans-serif; /* Aplicar la fuente Roboto Black 900 */
+    font-weight: 900;
+    font-size: 65px; /* Tamaño del texto ajustable según tu preferencia */
+    color: #000; /* Color del texto */
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    background-color: #DEFFB1;
+  }
+  
+  .menu-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los elementos en todos los dispositivos */
+    max-width: 800px; /* Ajusta el ancho máximo de la lista según sea necesario */
+  }
+  
+  .menu-list li {
+    margin-bottom: 20px;
+    font-size: 18px;
+    flex-basis: 45%; /* Divide la lista en dos columnas */
+    
+  }
+  
+  .menu-list li i {
+    margin-right: 10px;
+  }
